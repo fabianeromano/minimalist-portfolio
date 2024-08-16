@@ -1,0 +1,44 @@
+---
+interface Props {
+  project: number;
+  demo: string;
+  code: string;
+  icons: string[];
+}
+const { project, demo, code, icons } = Astro.props;
+---
+
+<div class="border border-white/20 flex justify-between flex-col">
+  <div class="text-white text-xs p-3 text-center border-b border-white/20">
+    <span class="block font-semibold">Project {project}</span>
+  </div>
+  <figure class="border-b border-white/20">
+    <img
+      alt="work"
+      class="w-full object-cover object-center aspect-square"
+      src="/src/assets/works/1.png"
+    />
+  </figure>
+  <div
+    class="flex justify-center items-center border-b border-white/20 p-2 gap-1">
+    {
+      icons?.map((icon) => (
+        <img class="w-auto max-w-6 h-6" src={icon} alt={icon} />
+      ))
+    }
+  </div>
+  <div class="flex justify-center text-white border-b border-white/20">
+    <a
+      href={demo}
+      target="_blank"
+      class="border-r border-white/20 w-full text-center p-2 hover:bg-red-400 hover:text-black cursor-pointer"
+      >Demo</a
+    >
+    <a
+      href={code}
+      target="_blank"
+      class="w-full text-center p-2 hover:bg-red-400 hover:text-black cursor-pointer"
+      >Code</a
+    >
+  </div>
+</div>

@@ -1,0 +1,243 @@
+{
+    "basics": {
+      "name": "Fabian Romano",
+      "label": "FullStack developer",
+      "image": "https://avatars.githubusercontent.com/u/95093795?v=4",
+      "email": "fabian.ed.romano@gmail.com",
+      "phone": "(381) 5959340",
+      "url": "https://johndoe.com",
+      "summary": "+1 año de experiencia como Desarrollador Web. He trabajado en diferentes proyectos",
+      "location": {
+        "address": "",
+        "postalCode": "CP 4000",
+        "city": "San Miguel de Tucumán",
+        "countryCode": "ES",
+        "region": "Argentina"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "john",
+        "url": "https://twitter.com/john"
+      }],
+      "stats": [
+        {
+          "amount": 2,
+          "description":  "Years Of Experience"
+        },
+        {
+          "amount": 10,
+          "description":  "Projects Completed"
+        },
+        {
+          "amount": 300,
+          "description":  "hours of code"
+        }
+    ]
+    },
+    "work": [{
+      "name": "Coder House",
+      "position": "Tutor",
+      "url": "https://company.com",
+      "startDate": "2022",
+      "endDate": "Present",
+      "summary": "I work as a tutor in javascript commissions, I also do code reviews in JavaScript.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "No Country",
+      "position": "Front-End",
+      "url": "https://company.com",
+      "startDate": "2022",
+      "endDate": "Present",
+      "summary": "I do different kinds of projects working with multidisciplinary teams.",
+      "highlights": [
+        "Started the company"
+      ]
+    },{
+      "name": "Movimiento Puente",
+      "position": "Front-End",
+      "url": "https://company.com",
+      "startDate": "2022",
+      "endDate": "Present",
+      "summary": "I collaborate with the organization making the layout of the app, I develop a flyer for communication.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [
+      {
+      "institution": "Self learning",
+      "url": "https://institution.com/",
+      "studyType": "Back-End",
+      "description": "Relevant courses included node.js, MongoDb, Express, etc",
+      "startDate": "Nov-2023",
+      "endDate": "Present",
+      "score": "",
+      "courses": [
+        "Comisión N°111"
+      ]
+    },
+      {
+      "institution": "Coder House",
+      "url": "https://institution.com/",
+      "studyType": "React.js",
+      "description": "Relevant courses included ReactJS, Firebase, tailwind, etc",
+      "startDate": "May-2022",
+      "endDate": "Jul-2022",
+      "score": "",
+      "courses": [
+        "Comisión N°111"
+      ]
+    },
+      {
+      "institution": "Coder House",
+      "url": "https://institution.com/",
+      "studyType": "JavaScript",
+      "description": "Relevant courses included JavaScript, Axios, librerias, etc",
+      "startDate": "Mar-2022",
+      "endDate": "May-2022",
+      "score": "",
+      "courses": [
+        "Comisión N°111"
+      ]
+    },
+      {
+      "institution": "Coder House",
+      "url": "https://institution.com/",
+      "studyType": "Desarrollo Web",
+      "description": "Relevant courses included JavaScript, Axios, librerias, etc",
+      "startDate": "Nov-2021",
+      "endDate": "Mar-2022",
+      "score": "",
+      "courses": [
+        "Comisión N°111"
+      ]
+    },
+      {
+      "institution": "Facultad Regional Tucumán",
+      "url": "https://institution.com/",
+      "studyType": "Information System Engineer",
+      "description": "2 years, Incomplete career",
+      "startDate": "Mar-2004",
+      "endDate": "Dic-2025",
+      "score": "",
+      "courses": [
+        "Comisión N°111"
+      ]
+    }
+  ],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+      "name": "Project 1",
+      "thumbnail": "assets/works/1.png",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "demo": "https://project.com/",
+      "code": "https://project.com/"
+    },
+      {
+      "name": "Project 1",
+      "thumbnail": "assets/works/1.png",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "demo": "https://project.com/",
+      "code": "https://project.com/"
+    },
+      {
+      "name": "Project 1",
+      "thumbnail": "assets/works/1.png",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "demo": "https://project.com/",
+      "code": "https://project.com/"
+    },
+      {
+      "name": "Project 1",
+      "thumbnail": "assets/works/1.png",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "demo": "https://project.com/",
+      "code": "https://project.com/"
+    },
+      {
+      "name": "Project 1",
+      "thumbnail": "assets/works/1.png",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "demo": "https://project.com/",
+      "code": "https://project.com/"
+    }
+  ]
+  }

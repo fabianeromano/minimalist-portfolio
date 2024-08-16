@@ -1,0 +1,26 @@
+---
+import { work } from "@cv";
+import Company from "../common/Company.astro";
+---
+
+<section class="border-white/20 border-b">
+  <div class="mx-auto border-white/20 border-x max-w-7xl">
+    <div class="p-8">
+      <p class="text-white uppercase text-3xl lg:text-6xl">Experience</p>
+    </div>
+    <div
+      class="text-white text-xs gap-3 gap-y-12 grid grid-cols-1 md:grid-cols-4 mx-auto p-8 sm:grid-cols-2 md:gap-y-0">
+      {
+        work?.map((work) => (
+          <Company
+            name={work.name}
+            position={work.position}
+            startDate={work.startDate}
+            endDate={work.endDate}
+            summary={work.summary}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>

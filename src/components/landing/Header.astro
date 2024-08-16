@@ -1,0 +1,29 @@
+---
+import { basics } from "@cv";
+
+const { name, image } = basics;
+---
+
+<section
+  class="mx-auto border-white/20 border-t 2xl:max-w-7xl border-b justify-center w-full">
+  <div class="mx-auto justify-center w-full">
+    <div
+      class="mx-auto border-white/20 border-x max-w-7xl flex flex-col lg:flex-row lg:items-center lg:justify-between w-full">
+      <div
+        class="text-white text-center items-center w-full flex flex-col justify-between md:px-0 sm:flex-row sm:px-8">
+        <div class="text-white font-bold text-xs md:px-8 uppercase">
+          <span>{name}</span>
+        </div>
+        <a
+          href="https://github.com/fabianeromano"
+          class="w-full bg-white duration-200 hover:bg-black hover:text-white lg:ml-auto lg:w-auto px-6 py-4 sm:rounded-full text-black text-center text-xs font-bold uppercase"
+          >Github</a
+        ><a
+          href="mailto:your@name.com"
+          class="w-full bg-red-400 duration-200 hover:bg-blacktext-white lg:w-auto px-6 py-4 sm:rounded-full text-black hover:text-white text-center text-xs font-bold uppercase"
+          >Linkedin</a
+        >
+      </div>
+    </div>
+  </div>
+</section>

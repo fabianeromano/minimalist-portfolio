@@ -1,27 +1,29 @@
 ---
+import "@fontsource-variable/orbitron";
+
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body class="mx-auto 2xl:max-w-7xl bg-[#1e1e1e]">
+    <slot />
+  </body>
 </html>
 <style is:global>
-	:root {
+  /* :root {
 		--accent: 136, 58, 234;
 		--accent-light: 224, 204, 250;
 		--accent-dark: 49, 10, 101;
@@ -31,20 +33,30 @@ const { title } = Astro.props;
 			rgb(var(--accent-light)) 30%,
 			white 60%
 		);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
+	} */
+  body {
+    font-family: "Orbitron Variable", sans-serif;
+  }
+  .gradient-grid {
+    background-image: radial-gradient(
+        circle at center center,
+        transparent 0%,
+        rgba(255, 255, 255, 0) 99%
+      ),
+      repeating-linear-gradient(
+        0deg,
+        rgba(205, 205, 205, 0.2) 0px,
+        rgba(205, 205, 205, 0.2) 1px,
+        transparent 1px,
+        transparent 6px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        rgba(205, 205, 205, 0.2) 0px,
+        rgba(205, 205, 205, 0.2) 1px,
+        transparent 1px,
+        transparent 6px
+      ),
+      linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  }
 </style>
