@@ -186,56 +186,56 @@
     "projects": [
       {
       "name": "Project 1",
-      "thumbnail": "assets/works/1.png",
+      "thumbnail": "/works/1.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
       "demo": "https://project.com/",
       "code": "https://project.com/"
     },
       {
       "name": "Project 1",
-      "thumbnail": "assets/works/2.png",
+      "thumbnail": "/works/2.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
       "demo": "https://project.com/",
       "code": "https://project.com/"
     },
       {
       "name": "Project 1",
-      "thumbnail": "assets/works/3.png",
+      "thumbnail": "/works/3.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
       "demo": "https://project.com/",
       "code": "https://project.com/"
     },
       {
       "name": "Project 1",
-      "thumbnail": "assets/works/4.png",
+      "thumbnail": "/works/4.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
       "demo": "https://project.com/",
       "code": "https://project.com/"
     },
       {
       "name": "Project 1",
-      "thumbnail": "assets/works/5.png",
+      "thumbnail": "/works/5.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/src/assets/icons/react.svg", "/src/assets/icons/tailwind.svg", "/src/assets/icons/express.svg", "/src/assets/icons/mongodb.png"],
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
       "demo": "https://project.com/",
       "code": "https://project.com/"
     }

@@ -3,9 +3,10 @@ interface Props {
   project: number;
   demo: string;
   code: string;
+  thumbnail: string;
   icons: string[];
 }
-const { project, demo, code, icons } = Astro.props;
+const { project, demo, code, icons, thumbnail } = Astro.props;
 ---
 
 <div class="border border-white/20 flex justify-between flex-col">
@@ -16,7 +17,7 @@ const { project, demo, code, icons } = Astro.props;
     <img
       alt="work"
       class="w-full object-cover object-center aspect-square"
-      src="/src/assets/works/1.png"
+      src={thumbnail}
     />
   </figure>
   <div
