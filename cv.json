@@ -14,11 +14,18 @@
         "countryCode": "ES",
         "region": "Argentina"
       },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }],
+      "profiles": [
+        {
+        "network": "github",
+        "username": "fabianeromano",
+        "url": "https://github.com/fabianeromano"
+      },
+        {
+        "network": "linkedin",
+        "username": "fabian-edgardo-romano",
+        "url": "https://www.linkedin.com/in/fabian-edgardo-romano/"
+      }
+    ],
       "stats": [
         {
           "amount": 2,
@@ -185,59 +192,59 @@
     }],
     "projects": [
       {
-      "name": "Project 1",
-      "thumbnail": "/works/1.png",
-      "description": "Description...",
+      "name": "adara",
+      "thumbnail": "/works/adara.png",
+      "description": "Centro de estetica",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
-      "demo": "https://project.com/",
-      "code": "https://project.com/"
+      "technology":["/icons/html.png", "/icons/tailwind.svg", "/icons/js.png","/icons/vercel.svg"],
+      "demo": "https://adara-swart.vercel.app/",
+      "code": "https://github.com/fabianeromano/Adara"
     },
       {
-      "name": "Project 1",
-      "thumbnail": "/works/2.png",
+      "name": "gameflix",
+      "thumbnail": "/works/gameflix.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
-      "demo": "https://project.com/",
-      "code": "https://project.com/"
+      "technology":["/icons/html.png", "/icons/css.png", "/icons/js.png","/icons/vercel.svg"],
+      "demo": "https://dw-proyecto-gameflix.vercel.app/",
+      "code": "https://github.com/fabianeromano/dwProyecto-Gameflix"
     },
       {
-      "name": "Project 1",
-      "thumbnail": "/works/3.png",
+      "name": "beach",
+      "thumbnail": "/works/beach.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
-      "demo": "https://project.com/",
-      "code": "https://project.com/"
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/vercel.svg"],
+      "demo": "https://beach-chi.vercel.app/",
+      "code": "https://github.com/fabianeromano/beach"
     },
       {
-      "name": "Project 1",
-      "thumbnail": "/works/4.png",
+      "name": "portfolio 2024",
+      "thumbnail": "/works/portfolio-2024.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
       "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
-      "demo": "https://project.com/",
-      "code": "https://project.com/"
+      "demo": "https://fabianeromano.vercel.app/",
+      "code": "https://github.com/fabianeromano/fr-portfolio-2024"
     },
       {
-      "name": "Project 1",
-      "thumbnail": "/works/5.png",
+      "name": "minimalist portfolio",
+      "thumbnail": "/works/minimalist-portfolio.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
-      "demo": "https://project.com/",
-      "code": "https://project.com/"
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/ts.svg", "/icons/github.svg"],
+      "demo": "https://fabianeromano.rcodefs.com/",
+      "code": "https://github.com/fabianeromano/minimalist-portfolio"
     }
   ]
   }
