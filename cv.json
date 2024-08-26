@@ -6,7 +6,7 @@
       "email": "fabian.ed.romano@gmail.com",
       "phone": "(381) 5959340",
       "url": "https://johndoe.com",
-      "summary": "+1 año de experiencia como Desarrollador Web. He trabajado en diferentes proyectos",
+      "summary": "Hi, I'm Fabian Romano, a full stack web developer with over 2 years of experience. I specialize in HTML, CSS, JavaScript, React, MongoDB, and Node.js. My focus is on creating functional and user-centric digital experiences. I stay updated with the latest web technology trends and deliver projects efficiently.",
       "location": {
         "address": "",
         "postalCode": "CP 4000",
@@ -36,8 +36,8 @@
           "description":  "Projects Completed"
         },
         {
-          "amount": 300,
-          "description":  "hours of code"
+          "amount": 2,
+          "description":  "Satisfied Clients"
         }
     ]
     },
@@ -193,6 +193,8 @@
     "projects": [
       {
       "name": "adara",
+      "year": "2022",
+      "category": "landing",
       "thumbnail": "/works/adara.png",
       "description": "Centro de estetica",
       "highlights": [
@@ -204,6 +206,8 @@
     },
       {
       "name": "gameflix",
+      "year": "2022",
+      "category": "landing",
       "thumbnail": "/works/gameflix.png",
       "description": "Description...",
       "highlights": [
@@ -215,6 +219,8 @@
     },
       {
       "name": "beach",
+      "year": "2022",
+      "category": "landing",
       "thumbnail": "/works/beach.png",
       "description": "Description...",
       "highlights": [
@@ -226,17 +232,21 @@
     },
       {
       "name": "portfolio 2024",
+      "year": "2024",
+      "category": "landing",
       "thumbnail": "/works/portfolio-2024.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg", "/icons/mongodb.png"],
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg"],
       "demo": "https://fabianeromano.vercel.app/",
       "code": "https://github.com/fabianeromano/fr-portfolio-2024"
     },
       {
       "name": "minimalist portfolio",
+      "year": "2024",
+      "category": "landing",
       "thumbnail": "/works/minimalist-portfolio.png",
       "description": "Description...",
       "highlights": [

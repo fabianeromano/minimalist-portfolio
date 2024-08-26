@@ -17,15 +17,18 @@ import Card from "@/components/common/Card.astro";
 <section class="border-b border-white/20">
   <div class="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
     {
-      projects.map((project, index) => (
-        <Card
-          project={index + 1}
-          demo={project.demo}
-          code={project.code}
-          icons={project.technology}
-          thumbnail={project.thumbnail}
-        />
-      ))
+      projects
+        .reverse()
+        .map((project, index) => (
+          <Card
+            project={index + 1}
+            year={project.year}
+            demo={project.demo}
+            code={project.code}
+            icons={project.technology}
+            thumbnail={project.thumbnail}
+          />
+        ))
     }
   </div>
 </section>

@@ -1,17 +1,22 @@
 ---
 interface Props {
   project: number;
+  year: string;
   demo: string;
   code: string;
   thumbnail: string;
   icons: string[];
 }
-const { project, demo, code, icons, thumbnail } = Astro.props;
+const { project, demo, code, icons, thumbnail, year } = Astro.props;
 ---
 
 <div class="border border-white/20 flex justify-between flex-col">
-  <div class="text-white text-xs p-3 text-center border-b border-white/20">
+  <div
+    class="text-white text-xs p-3 text-center border-b border-white/20 flex justify-center items-center gap-1">
     <span class="block font-semibold">Project {project}</span>
+    <span class="border border-white/20 px-1 rounded-full text-xs text-white"
+      >{year}</span
+    >
   </div>
   <figure class="border-b border-white/20">
     <img
