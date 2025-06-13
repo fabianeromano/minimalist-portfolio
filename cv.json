@@ -6,7 +6,7 @@
       "email": "fabian.ed.romano@gmail.com",
       "phone": "(381) 5959340",
       "url": "https://johndoe.com",
-      "summary": "Hi, I'm Fabian Romano, a full stack web developer with over 2 years of experience. I specialize in HTML, CSS, JavaScript, React, MongoDB, and Node.js. My focus is on creating functional and user-centric digital experiences. I stay updated with the latest web technology trends and deliver projects efficiently.",
+      "summary": "Hi, I'm Fabian Romano, a full stack web developer. I specialize in building functional, intuitive, and user-focused applications using technologies like HTML, CSS, JavaScript, React, MongoDB, and Node.js. I enjoy turning ideas into solid, modern, and engaging digital experiences. I focus on solving real-world problems with clean, scalable code and a strong emphasis on performance, accessibility, and best practices. I've helped small businesses digitize their processes and improve their online presence, always exploring new tools to take each project to the next level.",
       "location": {
         "address": "",
         "postalCode": "CP 4000",
@@ -194,7 +194,7 @@
       {
       "name": "adara",
       "year": "2022",
-      "category": "landing",
+      "category": "frontend",
       "thumbnail": "/works/adara.png",
       "description": "Centro de estetica",
       "highlights": [
@@ -207,7 +207,7 @@
       {
       "name": "gameflix",
       "year": "2022",
-      "category": "landing",
+      "category": "frontend",
       "thumbnail": "/works/gameflix.png",
       "description": "Description...",
       "highlights": [
@@ -220,7 +220,7 @@
       {
       "name": "beach",
       "year": "2022",
-      "category": "landing",
+      "category": "frontend",
       "thumbnail": "/works/beach.png",
       "description": "Description...",
       "highlights": [
@@ -233,26 +233,26 @@
       {
       "name": "portfolio 2024",
       "year": "2024",
-      "category": "landing",
+      "category": "portfolio",
       "thumbnail": "/works/portfolio-2024.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/express.svg"],
+      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/vercel.svg"],
       "demo": "https://fabianeromano.vercel.app/",
       "code": "https://github.com/fabianeromano/fr-portfolio-2024"
     },
       {
       "name": "minimalist portfolio",
       "year": "2024",
-      "category": "landing",
+      "category": "portfolio",
       "thumbnail": "/works/minimalist-portfolio.png",
       "description": "Description...",
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "technology":["/icons/react.svg", "/icons/tailwind.svg", "/icons/ts.svg", "/icons/github.svg"],
+      "technology":["/icons/astro.svg", "/icons/tailwind.svg", "/icons/ts.svg", "/icons/github.svg"],
       "demo": "https://fabianeromano.rcodefs.com/",
       "code": "https://github.com/fabianeromano/minimalist-portfolio"
     }

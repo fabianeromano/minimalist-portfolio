@@ -23,22 +23,12 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
-  /* :root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	} */
   body {
     font-family: "Orbitron Variable", sans-serif;
   }
   .gradient-grid {
-    background-image: radial-gradient(
+    background-image:
+      radial-gradient(
         circle at center center,
         transparent 0%,
         rgba(255, 255, 255, 0) 99%

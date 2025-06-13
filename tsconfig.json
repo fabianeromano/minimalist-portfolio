@@ -3,10 +3,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@cv":["./cv.json"],
-      "@/*":[
+      "@cv": [
+        "./cv.json"
+      ],
+      "@/*": [
         "src/*"
       ]
-    }
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }

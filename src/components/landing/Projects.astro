@@ -1,7 +1,5 @@
 ---
-import { projects } from "@cv";
-
-import Card from "@/components/common/Card.astro";
+import ProjectGrid from "@/components/common/ProjectGrid.jsx";
 ---
 
 <section class="border-b border-white/20">
@@ -14,21 +12,4 @@ import Card from "@/components/common/Card.astro";
     </div>
   </div>
 </section>
-<section class="border-b border-white/20">
-  <div class="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5">
-    {
-      projects
-        .reverse()
-        .map((project, index) => (
-          <Card
-            project={index + 1}
-            year={project.year}
-            demo={project.demo}
-            code={project.code}
-            icons={project.technology}
-            thumbnail={project.thumbnail}
-          />
-        ))
-    }
-  </div>
-</section>
+<ProjectGrid client:load />
